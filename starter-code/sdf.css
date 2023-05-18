@@ -36,6 +36,8 @@
     .xx99Div{
         color: white;
         display: flex;
+        background-color: black;
+        justify-content: center;
     }
 
     .xx99{
@@ -43,7 +45,7 @@
         opacity: 80%;
         top: 70px;
         height: 520px;
-        width: 380px;
+        max-width: 375px;
     }
     .xx99Inner{
         display: flex;
