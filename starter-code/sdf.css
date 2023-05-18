@@ -38,8 +38,8 @@
         position: absolute;
         opacity: 80%;
         top: 70px;
-        max-height: 510px;
-        max-width: 100%;
+        height: 520px;
+        width: 380px;
     }
     .xx99Inner{
         display: flex;
@@ -50,7 +50,7 @@
         width: 300px;
         height: 275px;
         top: 218px;
-        left: 24px;
+        left: 13.5%;
         text-align: center;
         border: 1px solid red
     }
