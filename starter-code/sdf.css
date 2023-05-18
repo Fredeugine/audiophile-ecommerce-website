@@ -5,13 +5,17 @@
     font-weight: normal;
     font-style: normal;
 }
+:root{
+    --black: #000000;
+    --white: #ffffff;
+}
 @media screen and (max-width: 431px) {
     .sec1{
         height: 600px;
-        width: 375px;
+        background-color: black;
     }
     body{
-        background-color: black;
+        background-color: white;
         color: white;
         font-family: 'Manrope', sans-serif;
     }
@@ -78,6 +82,7 @@
         opacity: 0.75;
     }
     .seePr{
+        margin-left: -6px;
         font-weight: 700;
         font-size: 13px;
         line-height: 18px;
@@ -90,6 +95,87 @@
         top: 83.45%;
         width: 160px;
         height: 48px;
+       cursor: pointer;
+    }
+    .soundDevices{
+        font-weight: 700;
+        position: relative;
+        width: 327px;
+        height: 683px;
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+        color: black;
+        z-index: 4;
+        border: 1px solid red;
+        justify-content: flex-end;
+    }
+    .posImg{
+
+    }
+    .earphonesDiv,.speakersDiv,.headphonesDiv{
+        width: 327px;
+        height: 165px;
+        border-radius: 8px;
+        background-color: #F1F1F1;
+        border: 1px solid transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 5;
+        gap: 17px;
+    }
+    .proT{
+        height: 20px;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 1.07143px;
+        text-transform: uppercase;
+        margin-top: 36px;
+    }
+    .shop{
+        display: inline-flex;
+        justify-content: space-between;
+        width: 57.32px;
+        height: 18px;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+    }
+    .shopFnt{
+        opacity: 0.5;
+    }
+    .hd,.spk,.ear{
+        position: absolute;
+    }
+    .hd{
+        top: 5%;
+        left: 38%;
+        width: 84px;
+        height: 101px;
+        z-index: 0;
+    }
+    .spk{
+        top: 37%;
+        left: 38%;
+        width: 80px;
+        height: 104px;
+    }
+    .ear{
+        left: 34%;
+        top: 70%;
+        width: 103px;
+        height: 104px;
+    }
+    .speakersDiv{
+
+    }
+    .headphonesDiv{
+
     }
 }
 
