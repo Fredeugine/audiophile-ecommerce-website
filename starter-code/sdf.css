@@ -55,6 +55,7 @@
         top: 218px;
         left: 24px;
         text-align: center;
+        border: 1px solid red
     }
 
     .np{
@@ -91,8 +92,8 @@
         left: 25.61%;
         right: 25.61%;
         top: 83.45%;
-        bottom: 0%;
-
+        width: 160px;
+        height: 48px;
     }
 }
 
