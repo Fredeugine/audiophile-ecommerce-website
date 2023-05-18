@@ -5,7 +5,7 @@
     font-weight: normal;
     font-style: normal;
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 431px) {
     .sec1{
         height: 600px;
         width: 375px;
@@ -28,8 +28,6 @@
         display: flex;
         justify-content: center;
         width: 100%;
-
-
     }
     .xx99Div{
         color: white;
@@ -41,8 +39,7 @@
         opacity: 80%;
         top: 70px;
         max-height: 510px;
-        max-width: 450px;
-    }
+        max-width: 100%;
     }
     .xx99Inner{
         display: flex;
