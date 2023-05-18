@@ -104,10 +104,10 @@
         height: 683px;
         display: flex;
         flex-direction: column;
+        padding: 2rem;
         gap: 3.2rem;
         color: black;
         z-index: 4;
-        border: 1px solid red;
         justify-content: flex-end;
     }
     .posImg{
