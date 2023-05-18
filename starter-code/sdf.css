@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('assets/Manrope-VariableFont_wght.woff2') format('woff2');
+    /* Add additional font formats if necessary */
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (max-width: 390px) {
+
+    .sec1{
+        height: 600px;
+        width: 375px;
+    }
+    body{
+        background-color: black;
+        color: white;
+        font-family: 'Manrope', sans-serif;
+    }
+    .topButtons{
+        width: 327px;
+        height: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .topButtonsDiv{
+        height: 58px;
+        border-bottom: 1px solid white;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+
+    }
+    .xx99Div{
+        color: white;
+
+    }
+
+    .xx99{
+        position: absolute;
+        opacity: 80%;
+        top: 70px;
+        height: 510px;
+        width: 100%;
+    }
+    .xx99Inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        gap: 2.5rem;
+        width: 300px;
+        height: 275px;
+        top: 218px;
+        left: 24px;
+        text-align: center;
+    }
+
+    .np{
+        position: absolute;
+        height: 19px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 10px;
+        opacity: 0.5;
+    }
+    .mk2{
+        margin-top: 4px;
+        height: 80px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 1.28571px;
+    }
+    .mk2Des{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        opacity: 0.75;
+    }
+    .seePr{
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        color: white;
+        background-color: #D87D4A;
+        position: absolute;
+        left: 25.61%;
+        right: 25.61%;
+        top: 83.45%;
+        bottom: 0%;
+
+    }
+}
+
