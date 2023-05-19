@@ -10,30 +10,34 @@
     --white: #ffffff;
 }
 @media screen and (max-width: 431px) {
-    .sec1{
+    .sec1 {
         height: 600px;
         background-color: black;
     }
-    body{
+
+    body {
         background-color: white;
         color: white;
         font-family: 'Manrope', sans-serif;
     }
-    .topButtons{
+
+    .topButtons {
         width: 327px;
         height: 25px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    .topButtonsDiv{
+
+    .topButtonsDiv {
         height: 58px;
         border-bottom: 1px solid white;
         display: flex;
         justify-content: center;
         width: 100%;
     }
-    .xx99Div{
+
+    .xx99Div {
         color: white;
         display: flex;
         background-color: black;
@@ -41,14 +45,15 @@
         justify-content: center;
     }
 
-    .xx99{
+    .xx99 {
         position: absolute;
         opacity: 80%;
         top: 70px;
         height: 520px;
         max-width: 375px;
     }
-    .xx99Inner{
+
+    .xx99Inner {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -61,7 +66,7 @@
         text-align: center;
     }
 
-    .np{
+    .np {
         position: absolute;
         height: 19px;
         font-weight: 400;
@@ -70,7 +75,8 @@
         letter-spacing: 10px;
         opacity: 0.5;
     }
-    .mk2{
+
+    .mk2 {
         margin-top: 4px;
         height: 80px;
         font-weight: 700;
@@ -78,13 +84,15 @@
         line-height: 40px;
         letter-spacing: 1.28571px;
     }
-    .mk2Des{
+
+    .mk2Des {
         font-weight: 500;
         font-size: 15px;
         line-height: 25px;
         opacity: 0.75;
     }
-    .seePr{
+
+    .seePr {
         margin-left: -6px;
         font-weight: 700;
         font-size: 13px;
@@ -98,25 +106,33 @@
         top: 83.45%;
         width: 160px;
         height: 48px;
-       cursor: pointer;
+        cursor: pointer;
     }
-    .soundDevices{
+    .sec2{
+        display: flex;
+        padding: 24px;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .soundDevices {
         font-weight: 700;
         position: relative;
         width: 327px;
         height: 683px;
         display: flex;
         flex-direction: column;
-        padding: 2rem;
         gap: 3.2rem;
         color: black;
         z-index: 4;
         justify-content: flex-end;
     }
-    .posImg{
+
+    .posImg {
 
     }
-    .earphonesDiv,.speakersDiv,.headphonesDiv{
+
+    .earphonesDiv, .speakersDiv, .headphonesDiv {
         width: 327px;
         height: 165px;
         border-radius: 8px;
@@ -129,7 +145,8 @@
         z-index: 5;
         gap: 17px;
     }
-    .proT{
+
+    .proT {
         height: 20px;
         font-size: 15px;
         line-height: 20px;
@@ -138,7 +155,8 @@
         text-transform: uppercase;
         margin-top: 36px;
     }
-    .shop{
+
+    .shop {
         display: inline-flex;
         justify-content: space-between;
         width: 57.32px;
@@ -149,36 +167,188 @@
         text-transform: uppercase;
 
     }
-    .shopFnt{
+
+    .shopFnt {
         opacity: 0.5;
     }
-    .hd,.spk,.ear{
+
+    .hd, .spk, .ear {
         position: absolute;
     }
-    .hd{
+
+    .hd {
         top: 5%;
         left: 38%;
         width: 84px;
         height: 101px;
         z-index: 0;
     }
-    .spk{
+
+    .spk {
         top: 37%;
         left: 38%;
         width: 80px;
         height: 104px;
     }
-    .ear{
+
+    .ear {
         left: 34%;
         top: 70%;
         width: 103px;
         height: 104px;
     }
-    .speakersDiv{
+
+    .zx9Div {
+        position: relative;
+        color: #FFFFFF;
+        font-weight: 700;
+        width: 327px;
+        height: 600px;
+        background: #D87D4A;
+        border-radius: 8px;
+        border: 1px solid;
+        padding-left: 5px;
+        padding-right: 3px;
+    }
+
+    /*circles creation*/
+    .container {
+        position: relative;
+        width: 320px;
+        height: 320px;
+        border: none;
+        margin-top: -3px;
+        padding: 0;
+    }
+
+    .outer-circle {
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        width: 322px;
+        height: 322px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+
+    .inner-circle {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 280px;
+        height: 280px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+
+    .spk2 {
+        position: absolute;
+        width: 172px;
+        height: 207px;
+        left: 19%;
+        top: 13.6%;
+    }
+
+    .zx9Text {
+        position: absolute;
+        height: 80px;
+        width: 280px;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 1.28571px;
+        text-transform: uppercase;
+        top: 43.5%;
+        left: 6%;
+    }
+
+    .zx9TextP {
+        position: absolute;
+        width: 280px;
+        height: 75px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        opacity: 0.75;
+        top: 62%;
+        left: 6%;
+    }
+    .zx9Div > button{
+        background-color: black;
+        margin-top: -20px;
+    }
+    .zx7Div{
+        position: relative;
+        width: 327px;
+        height: 320px;
+        background-image: url("assets/home/mobile/image-speaker-zx7.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+    }
+    .zx7DivInner{
+        width: 204px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 22%;
+        left: 9%;
+    }
+    .zx7text,.yx1DivInner2Text{
+        z-index: 345354;
+        width: 202px;
+        height: 38px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .zx7DivInner > button,.yx1DivInner2Inner > button{
+        position: static;
+        background-color: transparent;
+        color: black;
+        margin-left: 1px;
+    }
+    .yx1Div{
+        width: 327px;
+        height: 424px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .yx1DivInner1{
+        background-image: url("assets/home/mobile/image-earphones-yx1.jpg");
+        background-size: cover;
+        border-radius: 8px;
+        width: 327px;
+        height: 200px;
+    }
+    .yx1DivInner2{
+        position: relative;
+        color: black;
+        width: 327px;
+        height: 200px;
+        border-radius: 8px;
+        background-color: #F1F1F1;
 
     }
-    .headphonesDiv{
-
+    .yx1DivInner2Inner{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 247px;
+        height: 118px;
+        left: 12.5%;
+        top: 20%;
+        justify-content: space-between;
+    }
+    .yx1DivInner2Inner > span{
+        width: 245px;
     }
 }
-
