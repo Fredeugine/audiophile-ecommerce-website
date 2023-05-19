@@ -19,6 +19,7 @@
         background-color: white;
         color: white;
         font-family: 'Manrope', sans-serif;
+        font-weight: 700;
     }
 
     .topButtons {
@@ -108,7 +109,8 @@
         height: 48px;
         cursor: pointer;
     }
-    .sec2{
+
+    .sec2 {
         display: flex;
         padding: 24px;
         flex-direction: column;
@@ -275,11 +277,13 @@
         top: 62%;
         left: 6%;
     }
-    .zx9Div > button{
+
+    .zx9Div > button {
         background-color: black;
         margin-top: -20px;
     }
-    .zx7Div{
+
+    .zx7Div {
         position: relative;
         width: 327px;
         height: 320px;
@@ -289,7 +293,8 @@
         background-repeat: no-repeat;
         border-radius: 8px;
     }
-    .zx7DivInner{
+
+    .zx7DivInner {
         width: 204px;
         position: absolute;
         display: flex;
@@ -297,7 +302,8 @@
         top: 22%;
         left: 9%;
     }
-    .zx7text,.yx1DivInner2Text{
+
+    .zx7text, .yx1DivInner2Text {
         z-index: 345354;
         width: 202px;
         height: 38px;
@@ -309,27 +315,31 @@
         text-transform: uppercase;
         color: #000000;
     }
-    .zx7DivInner > button,.yx1DivInner2Inner > button{
+
+    .zx7DivInner > button, .yx1DivInner2Inner > button {
         position: static;
         background-color: transparent;
         color: black;
         margin-left: 1px;
     }
-    .yx1Div{
+
+    .yx1Div {
         width: 327px;
         height: 424px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-    .yx1DivInner1{
+
+    .yx1DivInner1 {
         background-image: url("assets/home/mobile/image-earphones-yx1.jpg");
         background-size: cover;
         border-radius: 8px;
         width: 327px;
         height: 200px;
     }
-    .yx1DivInner2{
+
+    .yx1DivInner2 {
         position: relative;
         color: black;
         width: 327px;
@@ -338,7 +348,8 @@
         background-color: #F1F1F1;
 
     }
-    .yx1DivInner2Inner{
+
+    .yx1DivInner2Inner {
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -348,7 +359,109 @@
         top: 20%;
         justify-content: space-between;
     }
-    .yx1DivInner2Inner > span{
+
+    .yx1DivInner2Inner > span {
         width: 245px;
     }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 120px;
+        padding: 24px;
+    }
+
+    .footerSec1{
+        width: 327px;
+        height: 698px;
+
+    }
+
+    .manImage {
+        width: 327px;
+        height: 300px;
+        background-image: url("assets/shared/mobile/image-best-gear.jpg");
+        background-size: cover;
+        border-radius: 8px;
+        margin-bottom: 40px;
+    }
+
+    .footerSec1Inner2 {
+        width: 327px;
+        height: 76px;
+        position: absolute;
+        font-style: normal;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .footerSec1Inner2 > span{
+        color: #D87D4A;
+    }
+    .footerSec1Inner3{
+        margin-top: 132px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #000000;
+        opacity: 0.5;
+    }
+    .footerSec2{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 38px;
+        align-items: center;
+        justify-content: center;
+        background: black;
+        width: 375px;
+        height: 654px;
+        padding-bottom: 20px;
+    }
+    .footerSec2 > span{
+        background: #D87D4A;
+        width: 101px;
+        height: 12px;
+    }
+    .footerSec2Inner2{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        width: 108px;
+        height: 148px;
+    }
+    .footerSec2 > p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        opacity: 0.5;
+        width: 327px;
+        height: 150px;
+    }
+    .footerSec2P2{
+        font-weight: 700;
+        width: 258px;
+        height: 25px;
+    }
+    .SocialMediaLinks{
+        width: 104px;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
 }
