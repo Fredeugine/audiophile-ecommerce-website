@@ -10,9 +10,10 @@
     --white: #ffffff;
 }
 @media screen and (max-width: 431px) {
-    .sec1 {
-        height: 600px;
+    .buttonsDiv{
         background-color: black;
+        width: 375px;
+        height: 192px
     }
 
     body {
@@ -39,8 +40,8 @@
     }
 
     .xx99Div {
+        display: none;
         color: white;
-        display: flex;
         background-color: black;
         width: 100%;
         justify-content: center;
@@ -63,7 +64,7 @@
         width: 300px;
         height: 275px;
         top: 218px;
-        left: 13.5%;
+        left: 9.5%;
         text-align: center;
     }
 
@@ -129,6 +130,7 @@
         z-index: 4;
         justify-content: flex-end;
     }
+
 
     .posImg {
 
@@ -201,6 +203,7 @@
     }
 
     .zx9Div {
+        display: none;
         position: relative;
         color: #FFFFFF;
         font-weight: 700;
@@ -284,6 +287,7 @@
     }
 
     .zx7Div {
+        display: none;
         position: relative;
         width: 327px;
         height: 320px;
@@ -324,9 +328,9 @@
     }
 
     .yx1Div {
+        display: none;
         width: 327px;
         height: 424px;
-        display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
